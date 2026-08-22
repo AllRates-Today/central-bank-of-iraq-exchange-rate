@@ -1,0 +1,55 @@
+{
+  "name": "central-bank-of-iraq-exchange-rate",
+  "version": "1.2.7",
+  "description": "Official Central Bank of Iraq (Iraq) daily exchange rates — 18 currencies vs IQD, history since 2009. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "cbiq",
+    "central",
+    "bank",
+    "of",
+    "iraq",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "iqd",
+    "central-bank",
+    "official-rates",
+    "iraq",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/cbiq/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/central-bank-of-iraq-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/central-bank-of-iraq-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
