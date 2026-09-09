@@ -1,6 +1,6 @@
 {
   "name": "central-bank-of-iraq-exchange-rate",
-  "version": "1.2.7",
+  "version": "1.3.0",
   "description": "Official Central Bank of Iraq (Iraq) daily exchange rates — 18 currencies vs IQD, history since 2009. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "cbiq",
