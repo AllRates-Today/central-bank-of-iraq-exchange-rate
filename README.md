@@ -85,7 +85,7 @@ const pair = await getRate('USD', 'IQD', { apiKey: 'art_live_...' });
 {
   bank: 'cbiq',
   name: 'Central Bank of Iraq',
-  rate_date: '2026-09-08',   // Central Bank of Iraq's own publication date
+  rate_date: '2026-09-24',   // Central Bank of Iraq's own publication date
   source: 'USD',
   target: 'IQD',
   rate: 1310,
@@ -113,7 +113,7 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cbiq',
   name: 'Central Bank of Iraq',
-  rate_date: '2026-09-08',
+  rate_date: '2026-09-24',
   rates: [
     { "base": "USD", "quote": "IQD", "type": "reference", "value": 1310 },
     { "base": "USD", "quote": "IQD", "type": "sell", "value": 1320 },
@@ -157,7 +157,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'central-bank-of-iraq-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'IQD', from: '2026-01-01', to: '2026-09-08' },
+  { source: 'USD', target: 'IQD', from: '2026-01-01', to: '2026-09-24' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -170,11 +170,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'IQD',
   from: '2026-01-01',
-  to: '2026-09-08',
+  to: '2026-09-24',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-08', rate: 1310, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-24', rate: 1310, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
