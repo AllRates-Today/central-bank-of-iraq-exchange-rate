@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/central-bank-of-iraq-exchange-rate.svg)](https://github.com/AllRates-Today/central-bank-of-iraq-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/central-bank-of-iraq-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/IQD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbiq%3Fsource%3DUSD%26target%3DIQD&query=%24.rate&label=USD%2FIQD%20published%20by%20Central%20Bank%20of%20Iraq&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbiq/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbiq%3Fsource%3DUSD%26target%3DIQD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbiq/)
 
 **Official Central Bank of Iraq (Iraq) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Iraq itself prints, every business day.**
 
@@ -32,6 +34,76 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Iraq table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-06** by Central Bank of Iraq — 57 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | IQD | buy | 353.982 |
+| AED | IQD | reference | 356.705 |
+| AED | IQD | sell | 359.428 |
+| AUD | IQD | buy | 906.1 |
+| AUD | IQD | reference | 913.07 |
+| AUD | IQD | sell | 920.04 |
+| CAD | IQD | buy | 913.82 |
+| CAD | IQD | reference | 920.849 |
+| CAD | IQD | sell | 927.879 |
+| CHF | IQD | buy | 1563.628 |
+| CHF | IQD | reference | 1575.656 |
+| CHF | IQD | sell | 1587.683 |
+| CNY | IQD | buy | 193.9 |
+| CNY | IQD | reference | 195.391 |
+| CNY | IQD | sell | 196.883 |
+| DKK | IQD | buy | 195.99 |
+| DKK | IQD | reference | 197.497 |
+| DKK | IQD | sell | 199.005 |
+| EUR | IQD | buy | 1464.97 |
+| EUR | IQD | reference | 1476.239 |
+| EUR | IQD | sell | 1487.508 |
+| GBP | IQD | buy | 1722.045 |
+| GBP | IQD | reference | 1735.292 |
+| GBP | IQD | sell | 1748.538 |
+| INR | IQD | buy | 13.481 |
+| INR | IQD | reference | 13.584 |
+| INR | IQD | sell | 13.688 |
+| JOD | IQD | buy | 1836.158 |
+| JOD | IQD | reference | 1850.282 |
+| JOD | IQD | sell | 1864.407 |
+| JPY | IQD | buy | 8.232 |
+| JPY | IQD | reference | 8.295 |
+| JPY | IQD | sell | 8.359 |
+| NOK | IQD | buy | 135.922 |
+| NOK | IQD | reference | 136.968 |
+| NOK | IQD | sell | 138.013 |
+| OMR | IQD | buy | 3381.014 |
+| OMR | IQD | reference | 3407.022 |
+| OMR | IQD | sell | 3433.03 |
+| QAR | IQD | buy | 357.143 |
+| QAR | IQD | reference | 359.89 |
+| QAR | IQD | sell | 362.637 |
+| SAR | IQD | buy | 346.667 |
+| SAR | IQD | reference | 349.333 |
+| SAR | IQD | sell | 352 |
+| SEK | IQD | buy | 130.306 |
+| SEK | IQD | reference | 131.309 |
+| SEK | IQD | sell | 132.311 |
+| TRY | IQD | buy | 26.439 |
+| TRY | IQD | reference | 26.642 |
+| TRY | IQD | sell | 26.845 |
+| USD | IQD | buy | 1300 |
+| USD | IQD | reference | 1310 |
+| USD | IQD | sell | 1320 |
+| XDR | IQD | buy | 1760.954 |
+| XDR | IQD | reference | 1774.5 |
+| XDR | IQD | sell | 1788.046 |
+
+Source: [Official rates published by CBIQ, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbiq/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
