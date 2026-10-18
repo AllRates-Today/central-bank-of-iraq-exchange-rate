@@ -42,46 +42,46 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by Central Bank of Iraq (the API currently flags this table as stale) — 57 rates. Updated 2026-10-18.
+Published **2026-10-15** by Central Bank of Iraq — 57 rates. Updated 2026-10-18.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | IQD | buy | 408.441 |
 | AED | IQD | reference | 411.164 |
 | AED | IQD | sell | 413.887 |
-| AUD | IQD | buy | 1044.15 |
-| AUD | IQD | reference | 1051.111 |
-| AUD | IQD | sell | 1058.072 |
-| CAD | IQD | buy | 1054.704 |
-| CAD | IQD | reference | 1061.735 |
-| CAD | IQD | sell | 1068.767 |
-| CHF | IQD | buy | 1801.434 |
-| CHF | IQD | reference | 1813.444 |
-| CHF | IQD | sell | 1825.453 |
-| CNY | IQD | buy | 224.065 |
-| CNY | IQD | reference | 225.558 |
-| CNY | IQD | sell | 227.052 |
-| DKK | IQD | buy | 224.5 |
-| DKK | IQD | reference | 225.997 |
-| DKK | IQD | sell | 227.494 |
-| EUR | IQD | buy | 1678.2 |
-| EUR | IQD | reference | 1689.388 |
-| EUR | IQD | sell | 1700.576 |
-| GBP | IQD | buy | 1986.15 |
-| GBP | IQD | reference | 1999.391 |
-| GBP | IQD | sell | 2012.632 |
-| INR | IQD | buy | 15.748 |
-| INR | IQD | reference | 15.853 |
-| INR | IQD | sell | 15.958 |
+| AUD | IQD | buy | 1043.25 |
+| AUD | IQD | reference | 1050.205 |
+| AUD | IQD | sell | 1057.16 |
+| CAD | IQD | buy | 1056.636 |
+| CAD | IQD | reference | 1063.68 |
+| CAD | IQD | sell | 1070.724 |
+| CHF | IQD | buy | 1807.142 |
+| CHF | IQD | reference | 1819.189 |
+| CHF | IQD | sell | 1831.237 |
+| CNY | IQD | buy | 224.155 |
+| CNY | IQD | reference | 225.649 |
+| CNY | IQD | sell | 227.144 |
+| DKK | IQD | buy | 224.911 |
+| DKK | IQD | reference | 226.411 |
+| DKK | IQD | sell | 227.91 |
+| EUR | IQD | buy | 1681.2 |
+| EUR | IQD | reference | 1692.408 |
+| EUR | IQD | sell | 1703.616 |
+| GBP | IQD | buy | 1987.5 |
+| GBP | IQD | reference | 2000.75 |
+| GBP | IQD | sell | 2014 |
+| INR | IQD | buy | 15.778 |
+| INR | IQD | reference | 15.883 |
+| INR | IQD | sell | 15.988 |
 | JOD | IQD | buy | 2118.644 |
 | JOD | IQD | reference | 2132.768 |
 | JOD | IQD | sell | 2146.893 |
-| JPY | IQD | buy | 9.464 |
-| JPY | IQD | reference | 9.527 |
-| JPY | IQD | sell | 9.591 |
-| NOK | IQD | buy | 157.304 |
-| NOK | IQD | reference | 158.352 |
-| NOK | IQD | sell | 159.401 |
+| JPY | IQD | buy | 9.497 |
+| JPY | IQD | reference | 9.561 |
+| JPY | IQD | sell | 9.624 |
+| NOK | IQD | buy | 157.83 |
+| NOK | IQD | reference | 158.882 |
+| NOK | IQD | sell | 159.934 |
 | OMR | IQD | buy | 3901.17 |
 | OMR | IQD | reference | 3927.178 |
 | OMR | IQD | sell | 3953.186 |
@@ -91,18 +91,18 @@ Published **2026-10-13** by Central Bank of Iraq (the API currently flags this t
 | SAR | IQD | buy | 400 |
 | SAR | IQD | reference | 402.667 |
 | SAR | IQD | sell | 405.333 |
-| SEK | IQD | buy | 150.244 |
-| SEK | IQD | reference | 151.246 |
-| SEK | IQD | sell | 152.248 |
-| TRY | IQD | buy | 30.388 |
-| TRY | IQD | reference | 30.591 |
-| TRY | IQD | sell | 30.793 |
+| SEK | IQD | buy | 150.423 |
+| SEK | IQD | reference | 151.426 |
+| SEK | IQD | sell | 152.428 |
+| TRY | IQD | buy | 30.328 |
+| TRY | IQD | reference | 30.53 |
+| TRY | IQD | sell | 30.732 |
 | USD | IQD | buy | 1500 |
 | USD | IQD | reference | 1510 |
 | USD | IQD | sell | 1520 |
-| XDR | IQD | buy | 2028.93 |
-| XDR | IQD | reference | 2042.456 |
-| XDR | IQD | sell | 2055.982 |
+| XDR | IQD | buy | 2031 |
+| XDR | IQD | reference | 2044.54 |
+| XDR | IQD | sell | 2058.08 |
 
 Source: [Official rates published by CBIQ, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbiq/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
