@@ -47,45 +47,46 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-26 by Central Bank of Iraq — 56 rates. Updated 2026-10-27.</summary>
+<summary>Table as text: published 2026-10-28 by Central Bank of Iraq — 57 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | IQD | buy | 408.441 |
 | AED | IQD | reference | 411.164 |
 | AED | IQD | sell | 413.887 |
-| AUD | IQD | buy | 1054.65 |
-| AUD | IQD | reference | 1061.681 |
-| AUD | IQD | sell | 1068.712 |
-| CAD | IQD | buy | 1069.519 |
-| CAD | IQD | reference | 1076.649 |
-| CAD | IQD | sell | 1083.779 |
-| CHF | IQD | buy | 1814.75 |
-| CHF | IQD | reference | 1826.849 |
-| CHF | IQD | sell | 1838.947 |
-| CNY | IQD | buy | 224.945 |
-| CNY | IQD | reference | 226.445 |
-| CNY | IQD | sell | 227.944 |
-| DKK | IQD | buy | 224.517 |
-| DKK | IQD | reference | 226.014 |
-| DKK | IQD | sell | 227.511 |
-| EUR | IQD | buy | 1678.2 |
-| EUR | IQD | reference | 1689.388 |
-| EUR | IQD | sell | 1700.576 |
-| GBP | IQD | buy | 2002.125 |
-| GBP | IQD | reference | 2015.473 |
-| GBP | IQD | sell | 2028.82 |
-| INR | IQD | buy | 15.764 |
-| INR | IQD | sell | 15.974 |
+| AUD | IQD | buy | 1055.1 |
+| AUD | IQD | reference | 1062.134 |
+| AUD | IQD | sell | 1069.168 |
+| CAD | IQD | buy | 1068.681 |
+| CAD | IQD | reference | 1075.805 |
+| CAD | IQD | sell | 1082.93 |
+| CHF | IQD | buy | 1807.861 |
+| CHF | IQD | reference | 1819.913 |
+| CHF | IQD | sell | 1831.965 |
+| CNY | IQD | buy | 224.992 |
+| CNY | IQD | reference | 226.492 |
+| CNY | IQD | sell | 227.992 |
+| DKK | IQD | buy | 223.43 |
+| DKK | IQD | reference | 224.92 |
+| DKK | IQD | sell | 226.409 |
+| EUR | IQD | buy | 1669.95 |
+| EUR | IQD | reference | 1681.083 |
+| EUR | IQD | sell | 1692.216 |
+| GBP | IQD | buy | 1993.05 |
+| GBP | IQD | reference | 2006.337 |
+| GBP | IQD | sell | 2019.624 |
+| INR | IQD | buy | 15.752 |
+| INR | IQD | reference | 15.857 |
+| INR | IQD | sell | 15.962 |
 | JOD | IQD | buy | 2118.644 |
 | JOD | IQD | reference | 2132.768 |
 | JOD | IQD | sell | 2146.893 |
-| JPY | IQD | buy | 9.542 |
-| JPY | IQD | reference | 9.606 |
-| JPY | IQD | sell | 9.669 |
-| NOK | IQD | buy | 160.524 |
-| NOK | IQD | reference | 161.594 |
-| NOK | IQD | sell | 162.664 |
+| JPY | IQD | buy | 9.503 |
+| JPY | IQD | reference | 9.567 |
+| JPY | IQD | sell | 9.63 |
+| NOK | IQD | buy | 161.388 |
+| NOK | IQD | reference | 162.463 |
+| NOK | IQD | sell | 163.539 |
 | OMR | IQD | buy | 3901.17 |
 | OMR | IQD | reference | 3927.178 |
 | OMR | IQD | sell | 3953.186 |
@@ -95,18 +96,18 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 | SAR | IQD | buy | 400 |
 | SAR | IQD | reference | 402.667 |
 | SAR | IQD | sell | 405.333 |
-| SEK | IQD | buy | 150.667 |
-| SEK | IQD | reference | 151.671 |
-| SEK | IQD | sell | 152.675 |
-| TRY | IQD | buy | 30.15 |
-| TRY | IQD | reference | 30.351 |
-| TRY | IQD | sell | 30.552 |
+| SEK | IQD | buy | 151.045 |
+| SEK | IQD | reference | 152.052 |
+| SEK | IQD | sell | 153.059 |
+| TRY | IQD | buy | 30.104 |
+| TRY | IQD | reference | 30.305 |
+| TRY | IQD | sell | 30.506 |
 | USD | IQD | buy | 1500 |
 | USD | IQD | reference | 1510 |
 | USD | IQD | sell | 1520 |
-| XDR | IQD | buy | 2032.23 |
-| XDR | IQD | reference | 2045.778 |
-| XDR | IQD | sell | 2059.326 |
+| XDR | IQD | buy | 2027.67 |
+| XDR | IQD | reference | 2041.188 |
+| XDR | IQD | sell | 2054.706 |
 
 </details>
 
@@ -273,6 +274,7 @@ The Central Bank of Iraq publishes daily buying, official and selling dinar rate
 
 - Publisher's own page: [Exchange prices](https://cbi.iq/page/144) · [cbi.iq](https://cbi.iq)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Central Bank of Iraq rates page](https://allratestoday.com/central-bank-rates-api/cbiq/)
+- In the API: usually by **10:20 UTC** (measured over the last 8 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
