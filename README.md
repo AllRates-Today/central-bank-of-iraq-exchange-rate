@@ -32,7 +32,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-12 by Central Bank of Iraq — 57 rates. Updated 2026-11-15.</summary>
+<summary>Table as text: published 2026-11-12 by Central Bank of Iraq (the API currently flags this table as stale) — 57 rates. Updated 2026-11-17.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
