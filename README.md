@@ -32,46 +32,46 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-17 by Central Bank of Iraq — 57 rates. Updated 2026-11-18.</summary>
+<summary>Table as text: published 2026-11-19 by Central Bank of Iraq — 57 rates. Updated 2026-11-22.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | IQD | buy | 408.441 |
 | AED | IQD | reference | 411.164 |
 | AED | IQD | sell | 413.887 |
-| AUD | IQD | buy | 1011.3 |
-| AUD | IQD | reference | 1018.042 |
-| AUD | IQD | sell | 1024.784 |
-| CAD | IQD | buy | 1049.171 |
-| CAD | IQD | reference | 1056.166 |
-| CAD | IQD | sell | 1063.16 |
-| CHF | IQD | buy | 1785.438 |
-| CHF | IQD | reference | 1797.341 |
-| CHF | IQD | sell | 1809.244 |
-| CNY | IQD | buy | 225.019 |
-| CNY | IQD | reference | 226.519 |
-| CNY | IQD | sell | 228.019 |
-| DKK | IQD | buy | 220.517 |
-| DKK | IQD | reference | 221.987 |
-| DKK | IQD | sell | 223.457 |
-| EUR | IQD | buy | 1648.35 |
-| EUR | IQD | reference | 1659.339 |
-| EUR | IQD | sell | 1670.328 |
-| GBP | IQD | buy | 1978.275 |
-| GBP | IQD | reference | 1991.464 |
-| GBP | IQD | sell | 2004.652 |
-| INR | IQD | buy | 16.031 |
-| INR | IQD | reference | 16.138 |
-| INR | IQD | sell | 16.244 |
+| AUD | IQD | buy | 1001.55 |
+| AUD | IQD | reference | 1008.227 |
+| AUD | IQD | sell | 1014.904 |
+| CAD | IQD | buy | 1047.706 |
+| CAD | IQD | reference | 1054.69 |
+| CAD | IQD | sell | 1061.675 |
+| CHF | IQD | buy | 1780.373 |
+| CHF | IQD | reference | 1792.242 |
+| CHF | IQD | sell | 1804.111 |
+| CNY | IQD | buy | 225.053 |
+| CNY | IQD | reference | 226.553 |
+| CNY | IQD | sell | 228.054 |
+| DKK | IQD | buy | 220.598 |
+| DKK | IQD | reference | 222.069 |
+| DKK | IQD | sell | 223.539 |
+| EUR | IQD | buy | 1648.8 |
+| EUR | IQD | reference | 1659.792 |
+| EUR | IQD | sell | 1670.784 |
+| GBP | IQD | buy | 1973.325 |
+| GBP | IQD | reference | 1986.481 |
+| GBP | IQD | sell | 1999.636 |
+| INR | IQD | buy | 16.069 |
+| INR | IQD | reference | 16.176 |
+| INR | IQD | sell | 16.283 |
 | JOD | IQD | buy | 2118.644 |
 | JOD | IQD | reference | 2132.768 |
 | JOD | IQD | sell | 2146.893 |
-| JPY | IQD | buy | 9.428 |
-| JPY | IQD | reference | 9.491 |
-| JPY | IQD | sell | 9.554 |
-| NOK | IQD | buy | 155.865 |
-| NOK | IQD | reference | 156.904 |
-| NOK | IQD | sell | 157.943 |
+| JPY | IQD | buy | 9.399 |
+| JPY | IQD | reference | 9.462 |
+| JPY | IQD | sell | 9.524 |
+| NOK | IQD | buy | 154.853 |
+| NOK | IQD | reference | 155.885 |
+| NOK | IQD | sell | 156.918 |
 | OMR | IQD | buy | 3901.17 |
 | OMR | IQD | reference | 3927.178 |
 | OMR | IQD | sell | 3953.186 |
@@ -81,18 +81,18 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 | SAR | IQD | buy | 400 |
 | SAR | IQD | reference | 402.667 |
 | SAR | IQD | sell | 405.333 |
-| SEK | IQD | buy | 148.366 |
-| SEK | IQD | reference | 149.355 |
-| SEK | IQD | sell | 150.345 |
-| TRY | IQD | buy | 29.757 |
-| TRY | IQD | reference | 29.955 |
-| TRY | IQD | sell | 30.153 |
+| SEK | IQD | buy | 147.914 |
+| SEK | IQD | reference | 148.9 |
+| SEK | IQD | sell | 149.886 |
+| TRY | IQD | buy | 29.724 |
+| TRY | IQD | reference | 29.922 |
+| TRY | IQD | sell | 30.12 |
 | USD | IQD | buy | 1500 |
 | USD | IQD | reference | 1510 |
 | USD | IQD | sell | 1520 |
-| XDR | IQD | buy | 2017.485 |
-| XDR | IQD | reference | 2030.935 |
-| XDR | IQD | sell | 2044.385 |
+| XDR | IQD | buy | 2016.57 |
+| XDR | IQD | reference | 2030.014 |
+| XDR | IQD | sell | 2043.458 |
 
 </details>
 
